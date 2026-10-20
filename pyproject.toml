@@ -1,12 +1,12 @@
 [project]
 name = "hiboo"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI agent copilot that helps you land the right job."
 readme = "README.md"
 authors = [
-    { name = "mophe94", email = "dylan-bajeux@hotmail.com" }
+    { name = "mophe94" }
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
