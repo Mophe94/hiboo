@@ -8,6 +8,7 @@ The project is at its starting point:
 
 - Python 3.12 package with a `src/` layout, managed with [uv](adr/0001-use-uv-for-project-management.md)
 - Code quality with ruff, tests with pytest
+- PostgreSQL 17 with pgvector, run with Docker Compose
 
 ## Planned for v1.0
 
