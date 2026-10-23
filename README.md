@@ -14,6 +14,8 @@ Python 3.12 · uv · ruff · pytest :  more to come as the project grows.
 ## Development
 
 ```bash
+cp .env.example .env
+docker compose up -d
 uv sync
 uv run pytest
 ```

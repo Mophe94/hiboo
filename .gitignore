@@ -11,3 +11,6 @@ wheels/
 
 # Docs
 docs/docs_perso/
+
+# Env
+.env
