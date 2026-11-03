@@ -7,7 +7,12 @@ authors = [
     { name = "mophe94" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "alembic>=1.20.1",
+    "psycopg[binary]>=3.3.6",
+    "pydantic-settings>=2.16.1",
+    "sqlmodel>=0.0.48",
+]
 
 [project.scripts]
 hiboo = "hiboo:main"
