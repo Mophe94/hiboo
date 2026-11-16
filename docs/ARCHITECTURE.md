@@ -4,11 +4,15 @@ Hiboo is a Python application built around a single agent. This document grows w
 
 ## Current state
 
-The project is at its starting point:
+The data layer is in place. The API and the LLM integration are not built yet.
 
 - Python 3.12 package with a `src/` layout, managed with [uv](adr/0001-use-uv-for-project-management.md)
 - Code quality with ruff, tests with pytest
 - PostgreSQL 17 with pgvector, run with Docker Compose
+- Settings loaded from the environment and validated with pydantic-settings
+- Database connections managed by a single SQLAlchemy engine
+- Data models with SQLModel
+- Schema migrations with Alembic
 
 ## Planned for v1.0
 

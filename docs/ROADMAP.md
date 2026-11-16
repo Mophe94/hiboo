@@ -8,7 +8,7 @@ Target: **v1.0 by the end of November 2026**. Items are checked as their pull re
 - [x] Tooling: ruff, pytest, MIT license, README
 - [x] Documentation structure: architecture, roadmap, ADRs
 - [x] PostgreSQL with Docker Compose
-- [ ] Data models and migrations
+- [x] Data models and migrations
 - [ ] FastAPI skeleton
 - [ ] First LLM call with a validated structured output
 
